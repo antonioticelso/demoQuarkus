@@ -48,6 +48,44 @@
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-smallrye-openapi</artifactId>
     </dependency>
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-jdbc-mysql</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-hibernate-orm-panache</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-resteasy-jsonb</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.testcontainers</groupId>
+      <artifactId>mysql</artifactId>
+      <version>1.14.1</version>
+      <scope>test</scope>
+    </dependency>
+  
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-test-common</artifactId>
+      <version>0.15.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.database-rider</groupId>
+      <artifactId>rider-cdi</artifactId>
+      <version>1.12.0</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/javax.xml.stream/stax-api -->
+    <dependency>
+        <groupId>javax.xml.stream</groupId>
+        <artifactId>stax-api</artifactId>
+        <version>1.0-2</version>
+    </dependency>
+
+
   </dependencies>
   <build>
     <plugins>

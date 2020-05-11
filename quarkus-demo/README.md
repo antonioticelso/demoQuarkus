@@ -30,4 +30,3 @@ You can then execute your native executable with: `./target/quarkus-demo-1.0.0-S
 If you want to learn more about building native executables, please consult https://quarkus.io/guides/building-native-image.
 
 
-
