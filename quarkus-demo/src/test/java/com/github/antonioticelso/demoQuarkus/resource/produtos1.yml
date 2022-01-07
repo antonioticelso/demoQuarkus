@@ -1,0 +1,7 @@
+PRODUTO:
+    - ID: 1
+      NOME: PRODUTO UM
+      VALOR: 12.45
+    - ID: 2
+    NOME: PRODUTO DOIS
+    VALOR: 10.75
